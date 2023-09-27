@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Hanken Grotesk;
+}
+
+.card {
+    box-shadow: hsl(221, 100%, 96%) 15px 30px 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-part {
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.title {
+    color: hsl(241, 100%, 89%);
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.circle {
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color:  white;
+    font-size: 60px;
+    font-weight:800;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.info {
+    color:  hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+
+.title2 {
+    color: hsl(221, 100%, 96%);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.details {
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.right-part {
+    width: 50%;
+    padding: 1.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row:nth-child(1) {
+    background-color: hwb(0 96% 0%);
+    color: hsl(0, 100%, 67%);
+}
+
+
+.row:nth-child(2) {
+    color:  hsl(39, 100%, 56%);
+    background-color: hsl(40, 100%, 96%);
+}
+
+.row:nth-child(3) {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 96%);
+}
+
+.row:nth-child(4) {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(233, 100%, 97%);
+}
+
+.badge {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+p  {
+    color: rgba(0, 0, 0, 0.348);
+}
+
+p b {
+    color: black;
+}
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom,  hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+}
+
+.btn:onClick{
+    background:linear-gradient(to top,  hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+}
+
+@media screen and (max-width: 650px) {
+    body{
+        align-items: flex-start;
+        background-color: white;
+    }
+    .card{
+        box-shadow: none;
+    }
+    .cardContainer{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .left-part{
+        border-radius: 0 0 70px 70px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .left-part .details{
+        width: 300px;
+    }
+    .right-part{
+        width: 95%;
+        padding: 10px;
+    }
+}
+
+
+
+
+

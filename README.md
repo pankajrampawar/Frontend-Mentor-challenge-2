@@ -11,8 +11,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/pankajrampawar/Frontend-Mentor-challenge-2.git
+- Live Site URL: https://pankajrampawar.github.io/Frontend-Mentor-challenge-2/
 
 ## My process
 
